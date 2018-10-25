@@ -2,7 +2,7 @@ const express = require("express");
 const app = express(); //used to set up config that will listen for requests
 
 app.get("/", (req, res) => {
-  res.send({ hi: "there" });
+  res.send({ bye: "buddy" });
 });
 
 // heroku has the ability to inject environment variables
